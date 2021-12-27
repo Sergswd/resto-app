@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f52ad10e.chunk.css",
-    "main.js": "/static/js/main.4ae65d52.chunk.js",
-    "main.js.map": "/static/js/main.4ae65d52.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.6167cb7a.chunk.js": "/static/js/2.6167cb7a.chunk.js",
-    "static/js/2.6167cb7a.chunk.js.map": "/static/js/2.6167cb7a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d251afdc6b8983bd3ddb57deb3f65211.js": "/precache-manifest.d251afdc6b8983bd3ddb57deb3f65211.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f52ad10e.chunk.css.map": "/static/css/main.f52ad10e.chunk.css.map",
-    "static/media/bg2.jpg": "/static/media/bg2.2b22f4b8.jpg",
-    "static/media/shopping-cart-solid.svg": "/static/media/shopping-cart-solid.701d6d1d.svg"
+    "main.css": "/resto-app/static/css/main.f52ad10e.chunk.css",
+    "main.js": "/resto-app/static/js/main.ad568412.chunk.js",
+    "main.js.map": "/resto-app/static/js/main.ad568412.chunk.js.map",
+    "runtime~main.js": "/resto-app/static/js/runtime~main.2514cf48.js",
+    "runtime~main.js.map": "/resto-app/static/js/runtime~main.2514cf48.js.map",
+    "static/js/2.f65e8f25.chunk.js": "/resto-app/static/js/2.f65e8f25.chunk.js",
+    "static/js/2.f65e8f25.chunk.js.map": "/resto-app/static/js/2.f65e8f25.chunk.js.map",
+    "index.html": "/resto-app/index.html",
+    "precache-manifest.0d02f1985ea2bd9d8ef1487a80cc8d01.js": "/resto-app/precache-manifest.0d02f1985ea2bd9d8ef1487a80cc8d01.js",
+    "service-worker.js": "/resto-app/service-worker.js",
+    "static/css/main.f52ad10e.chunk.css.map": "/resto-app/static/css/main.f52ad10e.chunk.css.map",
+    "static/media/bg2.jpg": "/resto-app/static/media/bg2.2b22f4b8.jpg",
+    "static/media/shopping-cart-solid.svg": "/resto-app/static/media/shopping-cart-solid.701d6d1d.svg"
   }
 }
