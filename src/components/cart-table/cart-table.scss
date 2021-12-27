@@ -32,6 +32,16 @@
             width: 250px;
             object-fit: cover;
         }
+        &-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-count {
+            color: #fff;
+            font-size: 36px;
+            padding-right: 30px;
+        }
     }
     &__close {
         position: absolute;

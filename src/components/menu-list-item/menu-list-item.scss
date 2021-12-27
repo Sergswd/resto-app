@@ -1,6 +1,6 @@
 .menu {
   &__item {
-    width: 350px;
+    width: 320px;
     min-height: 400px;
     background-color: #fff;
     box-shadow: 5px 5px 45px rgba(256,256,256,.1);
@@ -8,6 +8,9 @@
     padding: 20px;
     margin-right: 40px;
     margin-bottom: 40px;
+    @media screen and (max-width: 756px) {
+      margin-right: 0;
+    }
   }
   &__title {
     font-size: 22px;
