@@ -17,7 +17,7 @@ const CartTable = ({ items, removeFromCart }) => {
   })
   return (
     <>
-      <div className="cart__title">Ваш заказ:</div>
+      <div className="cart__title">Your order:</div>
       <div className="cart__list">
         {
           uniqueItems.map(item => {

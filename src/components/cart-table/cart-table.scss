@@ -9,8 +9,17 @@
         font-weight: 300;
     }
     &__list {
-        width: 60%;
+        max-width: 800px;
         margin: 0 auto;
+        @media screen and (max-width: 880px) {
+            max-width: 600px;
+        }
+        @media screen and (max-width: 680px) {
+            max-width: 400px;
+        }
+        @media screen and (max-width: 460px) {
+            max-width: 232px;
+        }
     }
     &__item {
         position: relative;
@@ -21,26 +30,47 @@
         border: 1px solid rgba(256,256,256, .2);
         background-color: rgba(0,0,0,.7);
         box-shadow: 0 0 20px rgba(256,256,256, .1);
+        @media screen and (max-width: 460px) {
+            flex-direction: column;
+        }
         &-title, &-price  {
             width: 250px;
             text-align: center;
             color: #fff;
             font-size: 24px;
+            @media screen and (max-width: 880px) {
+                width: 150px;
+            }
+            @media screen and (max-width: 680px) {
+                margin-bottom: 5px;
+            }
         }
         &-img {
             height: 125px;
-            width: 250px;
+            width: 230px;
             object-fit: cover;
         }
         &-wrap {
             display: flex;
             justify-content: center;
             align-items: center;
+            @media screen and (max-width: 680px) {
+                flex-direction: column;
+                margin-right: 18px;
+            }
+            @media screen and (max-width: 460px) {
+                margin-right: 0;
+            }
         }
         &-count {
             color: #fff;
             font-size: 36px;
             padding-right: 30px;
+            @media screen and (max-width: 680px) {
+                padding-right: 0;
+                padding-left: 5px;
+                font-size: 30px;
+            }
         }
     }
     &__close {

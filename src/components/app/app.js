@@ -7,7 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div style={{background: `url(${Background}) right center/cover no-repeat`}} className="app">
+    <div style={{background: `url(${Background}) right center/cover no-repeat`, minHeight: '100vh'}} className="app">
         <AppHeader />
         <Switch>
           <Route path='/' exact component={MainPage} />
